@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url('http://at.alicdn.com/t/webfont_0knry0h09ae.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/webfont_0knry0h09ae.eot?#iefix') format('embedded-opentype'),
+         /* IE6-IE8 */ url('http://at.alicdn.com/t/webfont_0knry0h09ae.woff2') format('woff2'),
+         url('http://at.alicdn.com/t/webfont_0knry0h09ae.woff') format('woff'),
+         /* chrome、firefox */ url('//at.alicdn.com/t/webfont_0knry0h09ae.ttf') format('truetype'),
+         /* chrome、firefox、opera、Safari,
+         Android,
+         iOS 4.2+*/ url('http://at.alicdn.com/t/webfont_0knry0h09ae.svg#站酷小薇体') format('svg'); /* iOS 4.1- */
+}
+
+page {
+  width: 100%;
+  height: 100%;
+  font-family: webfont;
+  background-color: #e97d7d;
+}
+
+.image-class {
+  width: 100%;
+  height: 100%;
+}
+
+.album {
+  position: relative;
+}
+
+.album-title {
+  position: absolute;
+  bottom: 250rpx;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 40px;
+  color: #e97d7d;
+}
+
+.album-p {
+  position: absolute;
+  bottom: 180rpx;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 14px;
+  color: #e97d7d;
+}
+
+.album-p2 {
+  bottom: 120rpx;
+}
+
+.album-p3 {
+  bottom: 90rpx;
+}

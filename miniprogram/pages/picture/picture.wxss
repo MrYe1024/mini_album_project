@@ -1,0 +1,46 @@
+.footlist {
+  position: relative;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  padding-top: 20rpx;
+}
+
+.footlist::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.foot-left {
+  float: left;
+  width: 50%;
+}
+
+.foot-right {
+  float: left;
+  width: 50%;
+}
+
+.footbox {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  box-sizing: border-box;
+  position: relative;
+  padding: 12rpx;
+  padding-top: 10rpx;
+}
+
+.footbox image {
+  width: 100%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+  box-shadow: 0 8rpx 8rpx rgba(88, 88, 88, 0.233);
+}
+
+.foot-left .footbox {
+  padding-right: 12rpx;
+}
+

@@ -1,0 +1,36 @@
+<view class="page-section">
+  <view class="weui-cells__title">相册标题：</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input" auto-focus bindinput="create_title"/>
+    </view>
+  </view>
+</view>
+
+<view class="weui-cells">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-uploader">
+        <view class="weui-uploader__hd">
+          <view class="weui-uploader__title">相册封面：</view>
+          <view class="weui-uploader__info">{{photosNew.length}}/1</view>
+        </view>
+        <view class="weui-uploader__bd">
+          <view class="weui-uploader__files">
+            <block wx:for="{{photosNew}}" wx:for-item="image" wx:for-index="idx" wx:key="photosNew">
+              <view class="weui-uploader__file">
+                <view class="weui-uploader__img" data-src="{{image}}" bindtap="previewImage" style="background-image: url({{image.src}})"></view>
+                <text class="iconfont icon-shanchu cancel" bindtap="cancel" data-index="{{idx}}"></text>
+              </view>
+            </block>
+          </view>
+          <view class="weui-uploader__input-box" wx:if="{{photosNew.length < 1}}">
+            <view class="weui-uploader__input" bindtap="chooseImage"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="btn" type="primary" bindtap="upload_image">上传</button>

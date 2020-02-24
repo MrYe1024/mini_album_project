@@ -1,0 +1,71 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true,
+		"checkSiteMap": false
+	},
+	"appid": "wxfae664887c5ae65b",
+	"projectname": "%E4%B8%AA%E4%BA%BA%E7%9B%B8%E5%86%8C",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "pages/album/album",
+					"pathName": "pages/album/album",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/create/create",
+					"pathName": "pages/create/create",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/picture/picture",
+					"pathName": "pages/picture/picture",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

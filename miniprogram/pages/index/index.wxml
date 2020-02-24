@@ -1,0 +1,9 @@
+<block>
+<image  class="image-class" mode="scaleToFill" src="{{image_url}}" bindtap="nav_album"></image>
+</block>
+<view class="album">
+  <text class="album-title" bindtap="nav_album">时光漫旅</text>
+  <text class="album-p"># 路一直在你的前方 #</text>
+  <text class="album-p album-p2">说出来会被嘲笑的梦想</text>
+  <text class="album-p album-p3">才有实践的价值</text>
+</view>

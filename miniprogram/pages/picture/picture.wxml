@@ -1,0 +1,19 @@
+<view class='footlist'>
+  <view class="foot-left">
+    <block wx:for="{{list}}" wx:key="list">
+      <view class='footbox' wx:if="{{index%2==0}}" data-title="{{item.title}}">
+        <image class='cover' src="{{item.image_url}}" mode="widthFix" bindtap="preview_image" data-imageUrl="{{item.image_url}}"></image>
+      </view>
+    </block>
+  </view>
+
+  <view class="foot-right">
+    <block wx:for="{{list}}" wx:key="list">
+      <view class='footbox' wx:if="{{index%2==1}}" data-title="{{item.title}}">
+        <image class='cover' src="{{item.image_url}}" mode="widthFix" bindtap="preview_image" data-imageUrl="{{item.image_url}}"></image>
+      </view>
+    </block>
+  </view>
+</view>
+
+<text class="iconfont icon-add-circle-s" bindtap="upload_image"></text>

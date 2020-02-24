@@ -1,0 +1,21 @@
+@import '../../style/weui.wxss';
+
+.cancel {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  width: 30rpx;
+  height: 30rpx;
+  z-index: 300;
+}
+
+.weui-uploader__title {
+  color: #999;
+}
+
+.btn {
+  position: absolute;
+  bottom: 60rpx;
+  left: 50%;
+  transform: translate(-50%);
+}

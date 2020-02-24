@@ -1,0 +1,25 @@
+<view class='footlist'>
+  <view class="foot-left">
+    <block wx:for="{{list}}" wx:key="list">
+      <view class='footbox' wx:if="{{index%2==0}}" data-title="{{item.title}}" bindtap="nav_picture">
+        <image class='cover' src="{{item.image_url}}" mode="widthFix"></image>
+        <view class="box-shadow">
+          <text class='t1'>{{item.title}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view class="foot-right">
+    <block wx:for="{{list}}" wx:key="list">
+      <view class='footbox' wx:if="{{index%2==1}}" data-title="{{item.title}}" bindtap="nav_picture">
+        <image class='cover' src="{{item.image_url}}" mode="widthFix"></image>
+        <view class="box-shadow">
+          <text class='t1'>{{item.title}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+
+<text class="iconfont icon-bianji" bindtap="nav_create_album"></text>
