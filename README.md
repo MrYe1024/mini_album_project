@@ -25,5 +25,5 @@
 
 ## 项目体验
 微信扫描下面二维码即可体验。
-![](https://github.com/15113624649/mini_album_project/raw/master/mimiprogram/gh_bbcbb7b1b19b_258.jpg)
+![](https://github.com/15113624649/mini_album_project/blob/master/miniprogram/gh_bbcbb7b1b19b_258.jpg)
 
