@@ -25,5 +25,5 @@
 
 ## 项目体验
 微信扫描下面二维码即可体验。
-![](https://7765-wechatdevelop-b98915-1258857271.tcb.qcloud.la/index/gh_bbcbb7b1b19b_258.jpg?sign=30631acd7e37871d47032e98058aa4c1&t=1582519736)
+![](miniprogram/gh_bbcbb7b1b19b_258.jpg)
 
